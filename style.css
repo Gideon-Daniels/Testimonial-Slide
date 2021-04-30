@@ -1,0 +1,78 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(226, 0, 0, 0.1);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 10%;
+  font-family: sans-serif;
+  background-image: url(./images/tulips-5104311_1920.jpg);
+  background-size: 100%;
+}
+.owl-carousel {
+  overflow: hidden;
+}
+
+.testimonials {
+  border: 1px solid black;
+  padding: 2% 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.img {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 25%;
+  width: 25%;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.testimonial-details {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  text-align: center;
+}
+
+h1,
+h2,
+q {
+  color: white;
+  margin-bottom: 25px;
+}
+
+h1,
+h2 {
+  color: purple;
+  box-shadow: rebeccapurple 8px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+q {
+  padding-top: 25px;
+  font-size: 25px;
+}

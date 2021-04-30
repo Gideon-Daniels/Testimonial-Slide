@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Owl Carousel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Set up your HTML -->
+    <!-- Container -->
+
+    <div class="owl-carousel">
+      <!-- Testimonials -->
+      <div class="testimonials">
+        <!-- Testimonial 1 -->
+        <div class="img">
+          <img src="./images/pexels-andre-moura-5376091.jpg" alt="img1" />
+        </div>
+        <div class="testimonial-details testimonial-1">
+          <h1>Thandokazi</h1>
+          <h2>Friend</h2>
+          <q>
+            Gideon is a great friend . He always looks out for me , ask me if I
+            am ok and if I need anything I should just ask him.
+          </q>
+        </div>
+      </div>
+
+      <div class="testimonials">
+        <!-- Testimonial 2 -->
+        <div class="img">
+          <img src="./images/pexels-misha-voguel-7421912.jpg" alt="img2" />
+        </div>
+        <div class="testimonial-details testimonial-2">
+          <h1>Retsipele</h1>
+          <h2>Classmate</h2>
+          <q>
+            Gideon is attentive in class and is always the one asking questions
+            . He is brave and have a desire to learn even if it is difficult to
+            understand . He takes the extra mile to assist those he can .
+          </q>
+        </div>
+      </div>
+
+      <div class="testimonials">
+        <!-- Testimonial 3 -->
+        <div class="img">
+          <img src="./images/pexels-harry-cooke-6533803.jpg" alt="img3" />
+        </div>
+        <div class="testimonial-details testimonial-3">
+          <h1>Uthmaan</h1>
+          <h2>Classmate</h2>
+          <q>
+            He is an inquisitive guy. You'll learn alot by being around him
+            because of the questions he has.
+          </q>
+        </div>
+      </div>
+    </div>
+    <!-- Script tags under here -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          items: 1,
+          margin: 50,
+          loop: true,
+          stagePadding: 100,
+          dots: false,
+          autoplay: true,
+        });
+      });
+    </script>
+  </body>
+</html>
